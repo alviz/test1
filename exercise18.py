@@ -30,4 +30,4 @@ if __name__=="__main__":
             print("Incorrect number!")
     print('Number of attempts: ' + str(attempts))
 
-test3
+test4
