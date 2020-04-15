@@ -35,6 +35,7 @@ def transpose(old_list):
 def transpose_diag(old_list):
     new_list = []
 
+
     new_list_diag = []
     for row in range(len(old_list)):
         new_list_diag.append(old_list[row][row])
