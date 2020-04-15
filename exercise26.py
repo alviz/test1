@@ -68,8 +68,7 @@ def checks(lst):
             return(1)
         elif result['2'] == 3:
             return(2)
-        else:
-            return(0)
+    return(0)
 
 def game(game_lst):
     check_row = checks(game_lst)
@@ -85,20 +84,5 @@ def game(game_lst):
     else:
         print('Nobody won!')
 
-game(winner_is_also_1)
-#
-# for row in game:
-#     result = calc_nums(row)
-#     if result['1'] == 3: print("First won!")
-#     if result['2'] == 3: print("Second won!")
-#
-# for row in transpose(game):
-#     result = check_nums(row)
-#     if result['1'] == 3: print("First won!")
-#     if result['2'] == 3: print("Second won!")
-#
-# for row in transpose_diag(game):
-#     result = check_nums(row)
-#     if result['1'] == 3: print("First won!")
-#     if result['2'] == 3: print("Second won!")
+game(winner_is_1)
 
