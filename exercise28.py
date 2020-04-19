@@ -8,3 +8,5 @@ for elem in lst:
     if elem > max: max = elem
 
 print(max)
+
+
