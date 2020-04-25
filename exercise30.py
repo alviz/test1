@@ -1,7 +1,7 @@
 import random
 
 words_dic = []
-with open('web/sowpods.txt', 'r') as file_words:
+with open('addon/sowpods.txt', 'r') as file_words:
     for line in file_words:
         words_dic.append(line.strip())
 
